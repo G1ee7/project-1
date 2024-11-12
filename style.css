@@ -1,0 +1,165 @@
+body {
+  margin: 0;
+}
+
+header {
+  background-color: #f1f1f1;
+  padding: 30px;
+  padding-bottom: 0;
+}
+
+nav.menu {
+  display: flex;
+  align-items: center;
+  margin-right: 35px;
+}
+
+nav.menu a {
+  text-decoration: none;
+  color: #333;
+  margin-left: 35px;
+}
+
+a.menu-logo {
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+  text-indent: 20px;
+}
+
+.menu-link-active {
+  padding: 20px;
+  margin: 10px;
+  font-family: "Inter", sans-serif;
+}
+
+.welcome {
+  background-color: #f1f1f1;
+  height: 500px;
+  padding: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+  font-family: "Roboto", sans-serif;
+}
+
+.welcome.text {
+  padding-left: 5px;
+  font-size: 300px;
+  margin-bottom: 20px;
+}
+
+.welcome-image {
+  margin-top: 50px;
+  margin-left: 200px;
+}
+
+.our_services {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 20px;
+  column-gap: 110px;
+  margin-top: 40px;
+}
+
+.service {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 5px;
+}
+
+.service img {
+  max-width: 100%;
+}
+
+.info {
+  background-color: #f1f1f1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+  font-family: "Roboto", sans-serif;
+  flex-direction: column;
+}
+
+.info_text {
+  text-align: center; /* Выравниваем содержимое по центру */
+}
+
+.info_text h1 {
+  margin-bottom: 10px;
+  padding: 20px;
+}
+
+.info_text a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.info_text img {
+  max-width: 100%;
+  height: auto;
+  width: 750px; /* Ширина изображения */
+}
+
+.reebok {
+  margin-top: 100px;
+}
+
+.reebok a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.braun {
+  margin-top: 100px;
+}
+
+.braun a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.footer_info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+.black-button {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.black-button:hover {
+  background-color: #333;
+}
+
+.footer_icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 40px;
+  margin-top: 40px;
+}
+
+.info a {
+  color: black;
+}
